@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 
-const Text = () => {
+const Text = ({ children }) => {
   return (
     <Fragment>
-      <span>{this.props.children}</span>;
+      <span>{children}</span>;
     </Fragment>
   );
 };
