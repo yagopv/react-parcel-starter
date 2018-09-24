@@ -5,7 +5,7 @@ import Text from './components/Text';
 
 ReactDOM.render(
   <Container>
-    <Text>{'What da fuck??'}</Text>
+    <Text>{'Hello from Parcel starter'}</Text>
   </Container>,
   document.getElementById('root')
 );
